@@ -1,4 +1,4 @@
-package com.microstar.tap3.utils;
+package com.mcdaniel.serverless.utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,7 +16,6 @@ import com.amazonaws.services.lambda.model.ListVersionsByFunctionResult;
 public class CleanOldLambdaVersions {
 
 	public static void main(String[] args) {
-		// This will trim up to the last 3 versions of any lambda deployed to the account defined by AWS_PROFILE
 
 		HashMap<String, Integer> maxArray = new HashMap<String, Integer>();
 		
